@@ -21,7 +21,7 @@ To create a macOS VM run the following command:
 packer build -var vm_name=<NameOfVM> -var ipsw_path=<Path/To/IPSW> macos_template.pkr.hcl
 ```
 
-Changing <NameOfVM> to the name of the VM and <Path/To/IPSW> to the path of your IPSW file
+Changing `<NameOfVM>` to the name of the VM and `<Path/To/IPSW>` to the path of your IPSW file
 
 The `vm_name=<NameOfVM>` is optional. If left out the default name `macOS` will be used:
 
